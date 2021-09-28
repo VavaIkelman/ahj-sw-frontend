@@ -80,7 +80,7 @@ export default class Chat {
     const clientElement = document.createElement('li');
     clientElement.classList.add('chat_member');
     clientElement.classList.add('chat_member_you');
-    clientElement.innerText = this.allClients.length ? 'и ты' : 'ты один';
+    clientElement.innerText = this.allClients.length ? 'Я' : 'никого';
     this.chatMembersElement.append(clientElement);
   }
 

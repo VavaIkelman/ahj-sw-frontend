@@ -7,11 +7,11 @@ export default class Login {
     this.container.classList.add('chat_login');
     this.container.innerHTML = `
     <form class="chat_login_form">
-      <h3>Введите никнейм</h3>
+      <h3>Введите имя</h3>
       <div class="chat_login_container">
         <input name="login" class="chat_login_input">
       </div>
-      <button>Войти</button>
+      <button>ВОЙТИ</button>
     </form>`;
     this.parentElement.append(this.container);
 
