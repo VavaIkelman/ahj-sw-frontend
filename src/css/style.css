@@ -74,7 +74,7 @@ h2{
 
 .chat_main {
     display: flex;
-    align-items: flex-start
+    justify-content: center;
 }
 
 .chat_members {
